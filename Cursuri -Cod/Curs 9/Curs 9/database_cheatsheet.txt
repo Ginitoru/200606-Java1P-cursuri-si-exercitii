@@ -1,0 +1,29 @@
+create table:
+    CREATE TABLE table_name (
+        id INT PRIMARY KEY AUTO INCREMENT,
+        name VARCHAR(50) NOT NULL,
+        price INT DEFAULT 0
+    );
+
+delete table:
+- DROB TABLE myTable;
+
+
+
+select:
+- all columns: "SELECT * FROM table_name"
+- specific columns: "SELECT c1, c2 FROM table_name"
+- condition: "SELECT * FROM table_name WHERE condition"
+- multiple conditions: "SELECT c1 c2 FROM table_name WHERE condition1 AND/OR/NOT condition2"
+- distinct: "SELECT DISTINCT c1, c2 FROM table_name"
+- ordering: "SELECT c1, c2 FROM table_name ORDER BY c1 ASC/DESC"
+
+insert
+- INSERT INTO table_name VALUES (value1, value2, value3, ...);
+- INSERT INTO table_name (column1, column2, column3, ...) VALUES (value1, value2, value3, ...);
+
+update
+- UPDATE table_name SET column1 = value1, column2 = value2 WHERE condition;
+
+delete
+- DELETE FROM table_name WHERE condition;

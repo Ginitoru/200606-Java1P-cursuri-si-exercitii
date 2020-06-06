@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/src/resources/translate.properties" />
+    <file url="file://$PROJECT_DIR$/src/resources/translate_en_UK.properties" />
+    <file url="file://$PROJECT_DIR$/src/resources/translate_ro_RO.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/resources/translate.properties" />
+      <file value="file://$PROJECT_DIR$/src/resources/translate_en_UK.properties" />
+      <file value="file://$PROJECT_DIR$/src/resources/translate_ro_RO.properties" />
+      <base-name>translate</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>

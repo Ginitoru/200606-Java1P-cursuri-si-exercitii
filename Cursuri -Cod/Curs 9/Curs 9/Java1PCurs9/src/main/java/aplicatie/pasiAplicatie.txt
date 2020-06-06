@@ -1,0 +1,33 @@
+- pt examen
+
+1) sa definiti paginile (in view)
+    - creati elementele (inclusiv la actiunile butoanelor)
+    - adaugati elementele in pagina
+    - faceti legatura intre pagini
+
+    !!! - testati pe parcurs
+            - ca sunt afisate elementele ok in pagina
+            - ca sunt preluate corect de view (System.out.println())
+            - ca functioneaza corect
+
+2) definiti controller-ul
+3) sa definesc tabelele necesare, coloanele (tipul lor), chei
+4) definiti dao/service <-> definiti model
+
+
+!! TESTATI PE PARCURS
+    ex: ati definit un controller, verificati ca ajung datele corect GUI - view - controller
+
+Start -> Login Register
+Login
+Register
+Dashboard
+
+
+
+
+- o aplicatie in general
+1) te gandesti la functionalitati (sau cauti exemple de idei de aplicatie)
+        - sa folositi ce ati invatat / sa vedeti ca ati inteles tot ce ati "invatat"
+        - sa va ganditi la lucruri noi, pe care nu stiti sa le faceti
+- vezi pasi examen VIEW - CONTROLLER - SERVICE/DAO -
